@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>chatGPT UI</title>
+    <script src="static//jquery.min.js"></script>
+    <script src="static/chat.js"></script>
+    <style>
+      #message {
+          font-size: 20px;
+          padding: 10px;
+          width: 50%;
+          height: 200px;
+      }
+      #output {
+          font-size: 30px;
+      }
+      #output pre {
+          color: blue;
+          margin-top: 1em;
+      }
+      #send {
+          font-size: 20px;
+          padding: 10px;
+          width: 200px;
+          height: 200px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="chat-window">
+      <div id="output"></div>
+      <textarea id="message" placeholder="你的问题..." style="vertical-align:top;"></textarea>
+      <button id="send">发送</button>
+    </div>
+  </body>
+</html>
+
